@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>English Stories - Galaxy Studies</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <style>
+            body {
+    background: linear-gradient(white, #98c8f8);
+    font-family: 'Georgia', serif;
+}
+
+header h1 {
+    font-weight: 700;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+}
+
+.container {
+    margin-top: 30px;
+}
+
+footer {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white ;
+    background: linear-gradient(#688293, #98c8f8);
+    padding: 20px;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+}
+
+.story-content {
+    white-space: pre-wrap; /* preserves paragraphs and line breaks */
+    max-height: 400px; /* makes long stories scrollable */
+    overflow-y: auto;
+    padding: 15px;
+    font-size: 1rem;
+    line-height: 1.8; /* Slightly increased line spacing */
+    color: #100a0a; /* Light gray text for readability */
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border-radius: 12px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    background: rgba(255, 255, 255, 0.05); /* subtle transparency for a dark neon feel */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 25px 5px rgba(0, 255, 255, 0.9); /* Brighter neon cyan glow on hover */
+    background: rgba(255, 255, 255, 0.1); /* Slightly brighter background on hover for contrast */
+}
+
+.card-header {
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 15px;
+    transition: background 0.3s, color 0.3s;
+    background: rgba(0, 123, 255, 0.8); /* Original blue, semi-transparent */
+    color: white;
+}
+
+.card-header:hover {
+    background: rgba(0, 165, 255, 1); /* Slightly brighter hover */
+    color: white;
+}
+
+.card-body {
+    padding: 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1); /* subtle divider */
+    background: rgba(255, 255, 255, 0.1); /* Dark translucent background */
+}
+
+.card-body p {
+    margin: 0;
+    color: #211818; /* Darker text for readability */
+    font-size: 1rem;
+}
+
+.card-body::after {
+    display: block;
+    margin-top: 10px;
+    color: #090808;
+    font-style: italic;
+    font-size: 0.9rem;
+    text-align: right;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .story-content {
+        max-height: 300px; /* Slightly smaller height on mobile */
+    }
+    .card-header {
+    font-size: 1.1rem; /* Slightly smaller header on mobile */
+}
+
+.card-body {
+    padding: 12px; /* Less padding for mobile devices */
+}
+
+h2 {
+    font-size: 1.8em; /* Adjust heading size for mobile screens */
+}
+
+@media (max-width: 768px) {
+    .story-content {
+        max-height: 300px; /* Smaller scroll area on mobile */
+    }
+}
+}    
+    </style>
+</head>
+<body style="background: linear-gradient(white, #98c8f8);">
+
+<header class="text-center p-4 text-white" style="background: linear-gradient(to right, #1E90FF, #87CEFA);">
+    <h1>English Stories</h1>
+</header>
+
+<div class="container mt-4">
+
+    <form method="get" action="/english-stories" class="mb-4">
+        <input type="text" name="q" class="form-control" placeholder="Search stories...">
+    </form>
+
+    <div class="row">
+        <!-- Story cards -->
+        <div class="col-md-6 mb-3">
+            <div class="card">
+                <div class="card-header bg-primary text-white" data-toggle="collapse" data-target="#story1" aria-expanded="false" aria-controls="story1">
+                    <p><b>The Cartographer's Choice</b></p>
+                </div>
+                <div id="story1" class="collapse">
+                    <div class="card-body story-content">
+                        <p>The rain in Oakhaven did not fall; it drifted, a grey, suffocating gauze that clung to the limestone facades and turned the cobblestones into slick, dark mirrors. Elias stood at the window of his study, watching the blurred silhouettes of commuters hurrying toward the Underground. In his hand, he held a fountain pen—a heavy, cold thing of silver and obsidian—and a single sheet of vellum that felt increasingly like a death warrant. 
+                          He was a man built of silence and meticulous records, a restorer of lost maps. For twenty years, he had lived in the quiet tension between what the world was and what people remembered it to be. But the map spread across his desk now was something different. It was an impossible geography, a layout of a city that shared Oakhaven’s coordinates but none of its logic.</p>
+                                                
+                        The commission had come from a woman named Clara, whose eyes held the weary look of someone who had spent too much time looking at the sun. She hadn’t asked for a restoration; she had asked for a "correction."
+
+                            "The streets are shifting, Elias," she had whispered, her voice like dry leaves. "We walk through the intersections every day, oblivious to the fact that the angles are widening. If you don't pin the city down, we'll lose the horizon."
+
+                            Elias had laughed then, a short, dry sound. He didn’t laugh now. He looked down at the vellum. Under the magnifying glass, the ink lines seemed to pulse with a slow, rhythmic thrum. He traced a finger along "Blackwood Street." On any official municipal map, Blackwood ended at the park. Here, it spiraled inward, a recursive loop that seemed to bypass the laws of Euclidean geometry.</p>
+                            <p>The work began as a struggle against gravity. As Elias traced the shifting ink, the walls of his study seemed to thin, the silence outside deepening into a heavy, metallic hum. He realized that Oakhaven was not a city of stone, but of collective belief—and that belief was failing.
+
+                            Clara appeared in his doorway at midnight, smelling of ozone. "The Anchor Point," she whispered, pointing to a cathedral courtyard that had been sealed for a century. They moved through the city like ghosts, navigating streets that now buckled and stretched into impossible dimensions. At the cathedral, Elias didn't reach for the rusted gate; he reached for a fold in the air and stepped through.
+
+                            Inside, a marble courtyard held a fountain of liquid silver—the raw potential of a world not yet solidified. Clara offered a grim choice: finish the map to lock the city into a rigid, permanent reality, or leave it to dissolve into chaos. To save the world, Elias would have to become its prisoner, tethering the geography with his own constant observation.
+
+                            He sat by the silver pool and touched his pen to the vellum. He didn't draw the streets of Oakhaven. Instead, he drew a single line that bypassed the margins entirely, reaching for a horizon no map had ever dared to name. The marble shattered, the silver surged, and the study on the other side fell silent forever.
+
+                            The next morning, the room was empty. On his desk lay a blank sheet of paper, save for one shimmering circle. Oakhaven remained, but its citizens now walked with a subtle, permanent vertigo, sensing that the world beneath their feet was nothing more than a thin layer of ink.</p>
+                                        
+                            
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 mb-3">
+            <div class="card">
+                <div class="card-header bg-primary text-white" data-toggle="collapse" data-target="#story2" aria-expanded="false" aria-controls="story2">
+                    <p><b>The Weight of Indigo</b></p>
+                </div>
+                <div id="story2" class="collapse">
+                    <div class="card-body story-content">
+                        <p>The fog in the valley of Aethelgard did not dissipate with the sun; it settled into the marrow of the pines, a cold, silver weight that smelled of iron and old secrets. Julian sat in the high loft of the Archive, his fingers stained with the indigo ink of a century-old ledger. He was a "Counter"—a man hired to ensure that the number of souls entering the valley matched the number of shadows cast upon its stones.
+                          The discrepancy had started on a Tuesday. Three travelers had crossed the Stone Bridge, but the sun, hanging low and pale, had only pulled two silhouettes across the granite.</p>
+                          <p>The Master of the Archive, a man whose skin looked like crumpled parchment, didn't look up from his desk. "The world is fraying, Julian. People think a shadow is a consequence of light. It isn't. It’s an anchor. It’s the weight that keeps a man from drifting into the slipstream of time."
+                        Julian looked at the tally. If a soul lost its shadow, it began to thin. First, the memories would go—sharp edges of childhood fading into grey blurs. Then, the physical form would follow, becoming translucent until a gust of wind could scatter a person like woodsmoke.
+                        "Find the third traveler," the Master commanded. "Before he becomes a ghost in our halls."
+                        he Master of the Archive didn't look up from his desk. "A shadow is an anchor, Julian. It keeps a soul from drifting into the slipstream of time."
+
+Julian tracked the third traveler, Silas, to the village square. The man was already thinning, his edges blurring into the grey cobbles as he ate an apple that seemed to have more substance than his own hands. "I didn't lose my shadow," Silas whispered, his voice a fading echo. "I traded it. I couldn't carry the weight of my history anymore."
+
+They stood at the edge of the Great Rift, where the mist swallowed the world. Silas prepared to step into the void, intending to disperse like woodsmoke rather than fall. But Julian reached into his satchel for the Indigo Ink—a forbidden substance used only to mend the oldest souls. He grabbed Silas’s translucent wrist and painted a jagged black line from the man's heel across the stone.
+
+The ink roared to life, a living shadow that clawed its way back onto Silas’s form. He collapsed, his body regaining its density with a violent, crushing return of gravity. He was anchored now, but he would forever carry a shadow darker than the night, one that ignored the movement of the sun.
+                        Julian returned to the Archive and crossed out the discrepancy. He looked at his own predictable shadow and wondered if the light was truly worth the burden it demanded.</p>
+                        <!-- Add the full 5-page story here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Add more story cards here -->
+
+    </div>
+</div>
+<div class="text-left mb-4">
+    <a href="english.html" class="btn btn-secondary">&larr; Go Back</a>
+</div>
+
+<footer>2026 All rights reserved. Designed by <em>Rumaisa Kamal Safa</em>.</footer>
+</body>
+</html>

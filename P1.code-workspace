@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Maths"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "P1"
+	}
+}
